@@ -16,7 +16,7 @@ const MobileBottomNav: React.FC<MobileBottomNavProps> = ({ active, setActive }) 
   ];
 
   return (
-    <div className="lg:hidden fixed bottom-0 left-0 w-full bg-[#6A0DAD]/95 backdrop-blur-md 
+    <div className="lg:hidden fixed bottom-0 rounded-t-4xl left-0 w-full bg-[#6A0DAD]/95 backdrop-blur-md 
                     border-t border-purple-300/20 flex justify-around p-2 z-50">
       {links.map((link) => (
         <button
