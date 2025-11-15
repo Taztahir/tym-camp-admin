@@ -4,7 +4,7 @@ import MobileBottomNav from "./AdminMobileNav";
 import RegistrationTable from "./AdminRegisteration";
 import SettingsPage from "./AdminSetting";
 import { db } from "../firebase";
-import { collection, onSnapshot, doc } from "firebase/firestore";
+import { collection, onSnapshot } from "firebase/firestore";
 
 interface Registration {
   id: string;
